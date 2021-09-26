@@ -1,0 +1,14 @@
+[package]
+name = "moc-rs"
+version = "0.1.0"
+authors = ["phnixir <ayitsmephoenix@airmail.cc>"]
+edition = "2018"
+description = "A library to interact with the MoC (Music on Console) server running on the current machine"
+readme = "README.md"
+repository = "https://github.com/phnixir/moc-rs"
+license = "MPL-2.0"
+keywords = ["moc", "music on console", "audio", "sound", "utility"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
