@@ -107,7 +107,15 @@ impl MocInterface for Moc {
     }
     fn stop_server(&mut self) -> bool {
         let status = Command::new(self.moc_path.clone())
-            .arg("--stop")
+            .arg("--exit")
+            .status()
+            .expect("failed to run process");
+
+        status.success()
+    }
+    fn start_server(&mut self) -> bool {
+        let status = Command::new(self.moc_path.clone())
+            .arg("--server")
             .status()
             .expect("failed to run process");
 
@@ -124,6 +132,14 @@ impl MocInterface for Moc {
     fn previous_song(&mut self) -> bool {
         let status = Command::new(self.moc_path.clone())
             .arg("--previous")
+            .status()
+            .expect("failed to run process");
+
+        status.success()
+    }
+    fn stop_playback(&mut self) -> bool {
+        let status = Command::new(self.moc_path.clone())
+            .arg("--stop")
             .status()
             .expect("failed to run process");
 

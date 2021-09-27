@@ -25,10 +25,14 @@ pub trait MocInterface {
     fn immediate_play(&mut self, source: MocSource) -> bool;
     /// Literally just `game end` MoC.
     fn stop_server(&mut self) -> bool;
+    /// Launch the MoC server
+    fn start_server(&mut self) -> bool;
     /// Skip to the next song.
     fn next_song(&mut self) -> bool;
     /// Go back to the previous song.
     fn previous_song(&mut self) -> bool;
+    /// Stop all playback
+    fn stop_playback(&mut self) -> bool;
     /// Pause playback.
     fn pause_playback(&mut self) -> bool;
     /// Resume playback.
