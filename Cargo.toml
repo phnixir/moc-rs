@@ -1,8 +1,8 @@
 [package]
 name = "moc-rs"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["phnixir <ayitsmephoenix@airmail.cc>"]
-edition = "2018"
+edition = "2021"
 description = "A library to interact with the MoC (Music on Console) server running on the current machine"
 readme = "README.md"
 repository = "https://github.com/phnixir/moc-rs"
