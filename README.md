@@ -48,6 +48,11 @@ For more examples check out the [examples/][examples] directory on github
 
 [examples]: https://github.com/phnixir/moc-rs
 
+## Projects using `moc-rs`
+- [moc-rich-presence][mrp], discord rich presence for Music on Console!
+
+[mrp]: https://github.com/phnixir/moc-rich-presence
+
 ## Contributing
 Thanks for your interest in contributing! please open an issue or merge request
 to contibute. Code contributions submitted for inclusion in the work by you, as
