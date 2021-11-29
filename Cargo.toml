@@ -1,11 +1,11 @@
 [package]
 name = "moc-rs"
-version = "0.1.2"
-authors = ["phnixir <ayitsmephoenix@airmail.cc>"]
+version = "0.1.3"
+authors = ["vivyir <ayitsmephoenix@airmail.cc>"]
 edition = "2021"
 description = "A library to interact with the MoC (Music on Console) server running on the current machine"
 readme = "README.md"
-repository = "https://github.com/phnixir/moc-rs"
+repository = "https://github.com/vivyir/moc-rs"
 license = "MPL-2.0"
 keywords = ["moc", "music-on-console", "audio", "sound", "utility"]
 
