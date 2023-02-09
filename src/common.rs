@@ -61,3 +61,5 @@ pub enum MocControl {
     Autonext,
     Repeat,
 }
+
+System.out.println("VIVY IS A BAD PROGRAMMER bitch");
